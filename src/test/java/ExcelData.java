@@ -8,14 +8,14 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class ExcelData {
-    public String getString(int sh,int row, int column) throws IOException {
+    public String getString(int sh, int row, int column) throws IOException {
         String excelPath = "data/credentials.xlsx";
         FileInputStream fis = new FileInputStream(excelPath);
         XSSFWorkbook wb = new XSSFWorkbook(fis);
         XSSFSheet sheet = wb.getSheetAt(sh);
         XSSFRow r = null;
         XSSFCell cell = null;
-        String st= null;
+        String st = null;
         r = sheet.getRow(row);
         cell = r.getCell(column);
 //        if(column == 2){
@@ -23,9 +23,9 @@ public class ExcelData {
 //            st=Integer.toString(a);
 //            return st;
 //        }
-//        st = cell.getStringCellValue();
-//        return st;
-        return excelPath;
+        st = cell.getStringCellValue();
+        return st;
+        //return excelPath;
     }
     public void writeToken(Object ObjToken,int row, int column) throws IOException {
         String excelPath = "data/credentials.xlsx";
