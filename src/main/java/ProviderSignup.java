@@ -2,22 +2,18 @@ import org.json.JSONObject;
 import java.io.IOException;
 import io.restassured.http.ContentType;
 import org.apache.http.HttpStatus;
-import org.json.JSONObject;
 import static io.restassured.RestAssured.*;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import java.io.IOException;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.*;
-class ConsumerSignup {
-    public void Consumersignup() throws IOException {
+public class ProviderSignup {
+    public void Providersignuppost() throws IOException {
         RestAssured.useRelaxedHTTPSValidation();
         ExcelData ed = new ExcelData();
-        String pusername = ed.getString(0, 1, 0);
-        String prole = ed.getString(0, 1, 1);
-        String pemail = ed.getString(0, 1, 2);
-        String ppassword = ed.getString(0, 1, 3);
-        String prepassword = ed.getString(0, 1, 4);
+        String pusername = ed.getString(1, 1, 0);
+        String prole = ed.getString(1, 1, 1);
+        String pemail = ed.getString(1, 1, 2);
+        String ppassword = ed.getString(1, 1, 3);
+        String prepassword = ed.getString(1, 1, 4);
         JSONObject object= new JSONObject();
         object.put("username",pusername);
         object.put("role",prole);
@@ -37,8 +33,8 @@ class ConsumerSignup {
     public void userRegister() throws IOException {
         RestAssured.useRelaxedHTTPSValidation();
         ExcelData ed = new ExcelData();
-        String email = ed.getString(0, 1, 2);
-        String password = ed.getString(0, 1, 3);
+        String email = ed.getString(1, 1, 2);
+        String password = ed.getString(1, 1, 3);
         JSONObject object= new JSONObject();
         object.put("email",email);
         object.put("password",password);
@@ -55,15 +51,15 @@ class ConsumerSignup {
         Object ObjToken = jsonObject.get("access");
         System.out.println(ObjToken);
         ExcelData excelData = new ExcelData();
-        excelData.writeToken(ObjToken, 0, 1,5);
+        excelData.writeToken(ObjToken, 1, 1,5);
     }
     public void userLogin() throws IOException {
         RestAssured.useRelaxedHTTPSValidation();
         ExcelData ed = new ExcelData();
-        String accesstoken = ed.getString(0,1, 5);
+        String accesstoken = ed.getString(1,1, 5);
         data dt = new data(accesstoken);
         given().
-                headers(
+                        headers(
                         "Authorization",
                         "JWT " + accesstoken,
                         "Content-Type",

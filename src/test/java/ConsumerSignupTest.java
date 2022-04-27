@@ -8,10 +8,11 @@ public class ConsumerSignupTest {
     static ConsumerSignup consumer = new ConsumerSignup();
     @Test(priority = 1)
     public static void userlogin() throws IOException {
-        consumer.userRegister();
+        consumer.Consumersignup();
     }
     @Test(priority = 2)
     public static void userbookings() throws IOException {
+        consumer.userRegister();
         consumer.userLogin();
     }
 
