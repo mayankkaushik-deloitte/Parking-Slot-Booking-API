@@ -6,7 +6,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
 public class ExcelData {
     public String getString(int sh, int row, int column) throws IOException {
         String excelPath = "data/credentials.xlsx";
@@ -18,14 +17,8 @@ public class ExcelData {
         String st = null;
         r = sheet.getRow(row);
         cell = r.getCell(column);
-//        if(column == 2){
-//            int a =(int) cell.getNumericCellValue();
-//            st=Integer.toString(a);
-//            return st;
-//        }
         st = cell.getStringCellValue();
         return st;
-        //return excelPath;
     }
     public void writeToken(Object ObjToken,int row, int column) throws IOException {
         String excelPath = "data/credentials.xlsx";
