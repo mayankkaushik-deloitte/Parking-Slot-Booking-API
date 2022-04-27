@@ -20,11 +20,11 @@ public class ExcelData {
         st = cell.getStringCellValue();
         return st;
     }
-    public void writeToken(Object ObjToken,int row, int column) throws IOException {
+    public void writeToken(Object ObjToken,int sh,int row, int column) throws IOException {
         String excelPath = "data/credentials.xlsx";
         FileInputStream fis = new FileInputStream(excelPath);
         XSSFWorkbook wb = new XSSFWorkbook(fis);
-        XSSFSheet sheet = wb.getSheetAt(0);
+        XSSFSheet sheet = wb.getSheetAt(sh);
         XSSFRow r = null;
         XSSFCell cell = null;
         r= sheet.getRow(row);
