@@ -15,5 +15,4 @@ public class ConsumerSignupTest {
         consumer.userRegister();
         consumer.userLogin();
     }
-
 }
