@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Parking-Slot-Booking-API" />
+        <module name="ProductWeekAPI" />
       </profile>
     </annotationProcessing>
   </component>
