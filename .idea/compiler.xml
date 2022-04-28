@@ -10,5 +10,8 @@
         <module name="Parking-Slot-Booking-API" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Parking-Slot-Booking-API" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
