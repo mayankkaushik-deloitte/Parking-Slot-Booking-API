@@ -1,6 +1,6 @@
 public class data {
     private String accesstoken;
-    public data(String accesstoken) {
+       public data(String accesstoken) {
 
         this.accesstoken = accesstoken;
     }
