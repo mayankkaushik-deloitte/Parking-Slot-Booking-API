@@ -1,6 +1,5 @@
 import org.testng.annotations.Test;
 import java.io.IOException;
-
 import static org.hamcrest.MatcherAssert.assertThat;
 public class ProviderTest {
     static ProviderSignup provider = new ProviderSignup();
@@ -11,27 +10,24 @@ public class ProviderTest {
     static ProviderBooking booking = new ProviderBooking();
     static ProviderBookingEntryExit entry = new ProviderBookingEntryExit();
     static ParkingBookignPaid paid = new ParkingBookignPaid();
+    static ConsumerBookingReview review = new ConsumerBookingReview();
     @Test(priority = 1)
     public static void providerregisterpost() throws IOException {
         provider.Providersignuppost();
     }
-
     @Test(priority = 2)
     public static void providerregisterget() throws IOException {
         provider.userRegister();
         provider.userLogin();
     }
-
     @Test(priority = 3)
     public static void providerprofile() throws IOException {
         profile.providerprofile();
     }
-
     @Test(priority = 4)
     public static void providerprofileget() throws IOException {
         profile.providerget();
     }
-
     @Test(priority = 5)
     public static void providerparking() throws IOException{
         parking.providerparking();
@@ -76,5 +72,13 @@ public class ProviderTest {
     @Test(priority = 15)
     public static void providerpaidpost() throws IOException{
         paid.providerparkingpaidpost();
+    }
+    @Test(priority = 16)
+    public static void consumerreviewpost() throws IOException{
+        review.consumerreview();
+    }
+    @Test(priority = 17)
+    public static void consumerreviewget() throws IOException{
+        review.consumerreviewget();
     }
 }

@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e3578c-02b2-412c-9b90-a9ffc303d717" name="Changes" comment="" />
+    <list default="true" id="97e3578c-02b2-412c-9b90-a9ffc303d717" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/credentials.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/credentials.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConsumerSignupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConsumerSignupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConsumerVehicleID.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConsumerVehicleID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ConsumerSignupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ConsumerSignupTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ProviderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProviderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +27,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -24,61 +40,75 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="28QfOld6XnPDDNoGwQkqRg9zcZx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.ConsumerVehicleIdTest">
-    <configuration name="ConsumerSignupTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ProviderTest.consumerreviewget">
+    <configuration name="C:/Users/manjpr/Documents/Parking/Parking-Slot-Booking-API/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Parking-Slot-Booking-API" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConsumerSignupTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerVehicleGetTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProviderTest.consumerreviewget" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Parking-Slot-Booking-API" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConsumerVehicleGetTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ProviderTest" />
+      <option name="METHOD_NAME" value="consumerreviewget" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerVehicleIdTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProviderTest.providerbookingexit" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Parking-Slot-Booking-API" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConsumerVehicleIdTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ProviderTest" />
+      <option name="METHOD_NAME" value="providerbookingexit" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerVehicleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProviderTest.providerpaidget" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Parking-Slot-Booking-API" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConsumerVehicleTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ProviderTest" />
+      <option name="METHOD_NAME" value="providerpaidget" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderSignupTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProviderTest.providerpaidpost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Parking-Slot-Booking-API" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProviderSignupTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ProviderTest" />
+      <option name="METHOD_NAME" value="providerpaidpost" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -87,15 +117,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ConsumerVehicleIdTest" />
-        <item itemvalue="TestNG.ConsumerVehicleGetTest" />
-        <item itemvalue="TestNG.ConsumerVehicleTest" />
-        <item itemvalue="TestNG.ProviderSignupTest" />
-        <item itemvalue="TestNG.ConsumerSignupTest" />
+        <item itemvalue="TestNG.ProviderTest.consumerreviewget" />
+        <item itemvalue="TestNG.C:/Users/manjpr/Documents/Parking/Parking-Slot-Booking-API/testng.xml" />
+        <item itemvalue="TestNG.ProviderTest.providerbookingexit" />
+        <item itemvalue="TestNG.ProviderTest.providerpaidget" />
+        <item itemvalue="TestNG.ProviderTest.providerpaidpost" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97e3578c-02b2-412c-9b90-a9ffc303d717" name="Changes" comment="" />
+      <created>1651153706859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651153706859</updated>
+    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

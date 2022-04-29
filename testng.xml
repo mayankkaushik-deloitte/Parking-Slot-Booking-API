@@ -8,7 +8,13 @@
         <classes>
             <class name="ProviderTest">
                 <methods>
+                    <include name="providerregisterget"></include>
+                    <include name="providerprofileget"></include>
+                    <include name="providerparkingget"></include>
+                    <include name="parkinginfo"></include>
                     <include name="parkingstats"></include>
+                    <include name="providerbookingget"></include>
+
                 </methods>
             </class>
         </classes>

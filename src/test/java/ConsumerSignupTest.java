@@ -7,11 +7,11 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class ConsumerSignupTest {
     static ConsumerSignup consumer = new ConsumerSignup();
     @Test(priority = 1)
-    public static void userlogin() throws IOException {
+    public static void consumersignup() throws IOException {
         consumer.Consumersignup();
     }
     @Test(priority = 2)
-    public static void userbookings() throws IOException {
+    public static void consumerlogin() throws IOException {
         consumer.userRegister();
         consumer.userLogin();
     }
